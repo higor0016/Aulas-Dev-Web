@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../OneDrive/Documents/Aulas-Dev-Web"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Aula1"
+		},
+		{
+			"path": "../Aula2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Aula3"
+	}
+}

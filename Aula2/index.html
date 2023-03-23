@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula2</title>
+</head>
+<body>
+    <tr>
+        <td class="titulo">Profissão:
+            
+            <p></p>
+        </td>
+
+        <td class="campos">
+            <select id="DE_ESPECIALIDADE_SELECIONADA">
+                <option value="Professor">Professor</option>
+                <option value="Engenheiro">Engenheiro</option>
+                <option value="Medico">Médico</option>
+            </select>
+
+            <input type="text"
+            onchange="fnBuscaSelectEspecifico(this, 
+            'DE_ESPECIALIDADE_SELECIONADA');" id="value">Seta
+            <div class="msprofissao"></div>
+
+        </td>
+    </tr>
+
+    <script language = 'Javascript'>
+        function fnBuscaSelectEspecifico (busca, select) {
+            var valorABuscar = busca.value;
+            var buscaid=busca.id;
+            var valorABuscarSemFormatacao = valorABuscar
+            .replace(/(\.|\(|\)|\/|\-l) +/g, '');
+            var valorABuscarSemFormatacao="";
+
+            valorABuscar=valorABuscar.toLowerCase();
+            var selectedTrends = document.getElementById(select);
+            selectedTrends.style.display="none";
+            valorIndex=selectedTrends.selectIndex;
+            var soprimeiro=true;
+            var soprimeiroSelecionado='0';
+
+            for(var i=l; i < selectedTrends.length; i++)
+
+            {}
+
+        }
+
+
+    </scr ipt>
+</body>
+</html>
